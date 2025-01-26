@@ -1,0 +1,13 @@
+.noDataContainer {
+  gap: 10px;
+  height: calc(100vh - 80px - 100px - 100px - 50px) !important;
+}
+
+.noDataContainer span {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.noDataContainer img {
+  max-width: 50px;
+}

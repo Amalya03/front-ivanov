@@ -8,11 +8,11 @@ const Modal = ({ showModal, closeModal, children }) => {
 
   return (
     <div className={`${styles.modal} d_flex`} onClick={closeModal}>
-      <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
+      <div className={`${styles.modalContent} just_center d_flex flex_wrap`} onClick={(e) => e.stopPropagation()}>
         <Image
-          src="/assets/sideBar/cancel.svg"
+          src="./assets/sideBar/close.svg"
           alt="close"
-          imgStyle={styles.cancel}
+          imgStyle={styles.close}
           containerStyle={`w_full just_end d_flex ${styles.close}`}
           onClick={closeModal}
         />

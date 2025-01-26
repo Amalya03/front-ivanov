@@ -22,7 +22,7 @@
   background-color: #fefefe;
   padding: 20px;
   border: 1px solid #888;
-  width: 70%;
+  width: 50%;
 }
 
 .closeBtn {
@@ -40,4 +40,10 @@
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .modalContent {
+    width: 70%;
+  }
 }

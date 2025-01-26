@@ -7,9 +7,9 @@ const Header = ({ onHide }) => {
     <div className={`${styles.header} d_flex align_center just_around`}>
       <img src={"/assets/logo.svg"} alt="logo" className={styles.menu} />
       <Image
-        src="/assets/sideBar/cancel.svg"
+        src="/assets/sideBar/close.svg"
         alt="close"
-        imgStyle={styles.cancel}
+        imgStyle={styles.close}
         onClick={onHide}
       />
     </div>

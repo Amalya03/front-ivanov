@@ -5,6 +5,14 @@
   padding: 5px;
 }
 
+.modalImg img {
+  max-height: 400px;
+}
+
+.infoContainer {
+  max-width: 800px;
+}
+
 @media screen and (max-width: 1280px) {
   .homePage {
     width: calc(2 * 360px + 2 * 40px);
