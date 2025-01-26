@@ -1,0 +1,31 @@
+.navBar {
+  position: relative;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+  z-index: 100;
+  /* height: 140px; */
+  background: white;
+}
+
+.navBar.fixed {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(0); /* по умолчанию меню будет видно */
+}
+
+.navBar.hide {
+  transform: translateY(-100%); /* скрывает меню, когда оно должно уехать вверх */
+}
+
+.text {
+  font-weight: 600;
+  font-family: "Roboto SemiCondensed", sans-serif;
+  font-size: 1rem;
+}
+
+.navBar {
+  /* height: 140px; */
+  width: 100%;
+}

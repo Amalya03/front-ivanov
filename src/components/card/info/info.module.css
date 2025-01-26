@@ -1,0 +1,52 @@
+.tags {
+  color: #eb0028;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  font-family: "Roboto SemiCondensed", sans-serif;
+  display: block;
+  width: 100%;
+}
+
+.textContainer {
+  gap: 1rem;
+}
+
+.textContainer span {
+  text-align: start;
+}
+
+.title {
+  font-weight: 700;
+  font-family: "Roboto SemiCondensed", sans-serif;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+.date {
+  color: #000000;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: "Roboto SemiCondensed", sans-serif;
+}
+
+.date span {
+  color: #929292;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto SemiCondensed", sans-serif;
+  line-height: 20px;
+}
+
+.date span div {
+  width: 3px;
+  height: 3px;
+  background: #d7d7d7;
+  margin: 0 8px;
+  border-radius: 50%;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 0.875rem;
+  font-family: "Roboto SemiCondensed", sans-serif;
+  color: #929292;
+}
